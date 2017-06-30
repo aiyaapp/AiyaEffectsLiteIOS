@@ -1,0 +1,6 @@
+framework module AiyaCameraSDKLite {
+  umbrella header "AiyaCameraSDKLite.h"
+
+  export *
+  module * { export * }
+}
