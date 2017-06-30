@@ -15,7 +15,7 @@
 		D38008231F063EE4008310CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38008171F063EE4008310CD /* Info.plist */; };
 		D38008241F063EE4008310CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008181F063EE4008310CD /* main.m */; };
 		D38008271F063EE4008310CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D380081D1F063EE4008310CD /* ViewController.m */; };
-		D380082B1F063FCB008310CD /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D380082A1F063FCB008310CD /* mogulin */; };
+		D3E4D4E71F064ACA00D9064B /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D4E61F064ACA00D9064B /* mogulin */; };
 		D3FA47F31EFB57E60059F854 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F21EFB57E60059F854 /* GLKit.framework */; };
 		D3FA47FA1EFB5B400059F854 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F91EFB5B400059F854 /* libz.tbd */; };
 		D3FA47FC1EFB5B430059F854 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47FB1EFB5B430059F854 /* libiconv.tbd */; };
@@ -33,7 +33,7 @@
 		D38008181F063EE4008310CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D380081C1F063EE4008310CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D380081D1F063EE4008310CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D380082A1F063FCB008310CD /* mogulin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mogulin; sourceTree = "<group>"; };
+		D3E4D4E61F064ACA00D9064B /* mogulin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mogulin; sourceTree = "<group>"; };
 		D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA47F21EFB57E60059F854 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		D3FA47F91EFB5B400059F854 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -60,6 +60,7 @@
 		D380080D1F063EE3008310CD /* AiyaEffectsLiteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3E4D4E61F064ACA00D9064B /* mogulin */,
 				D380080E1F063EE4008310CD /* AiyaCameraSDK */,
 				D38008101F063EE4008310CD /* AppDelegate.h */,
 				D38008111F063EE4008310CD /* AppDelegate.m */,
@@ -77,7 +78,6 @@
 		D380080E1F063EE4008310CD /* AiyaCameraSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D380082A1F063FCB008310CD /* mogulin */,
 				D380080F1F063EE4008310CD /* AiyaCameraSDKLite.framework */,
 			);
 			path = AiyaCameraSDK;
@@ -170,8 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D380082B1F063FCB008310CD /* mogulin in Resources */,
 				D38008231F063EE4008310CD /* Info.plist in Resources */,
+				D3E4D4E71F064ACA00D9064B /* mogulin in Resources */,
 				D38008221F063EE4008310CD /* Main.storyboard in Resources */,
 				D38008201F063EE4008310CD /* Assets.xcassets in Resources */,
 				D38008211F063EE4008310CD /* LaunchScreen.storyboard in Resources */,

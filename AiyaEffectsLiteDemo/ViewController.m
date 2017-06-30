@@ -31,6 +31,7 @@
     v.backgroundColor = [UIColor blueColor];
     [self.view addSubview:v];
     
+    //使用GLKit创建opengl渲染环境
     glkView = [[GLKView alloc]initWithFrame:self.view.bounds context:[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2]];
     glkView.backgroundColor = [UIColor clearColor];
     glkView.delegate = self;
@@ -42,6 +43,7 @@
     [displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
 }
 
+#pragma mark CADisplayLink selector
 - (void)render:(CADisplayLink*)displayLink {
     [glkView display];
 }
@@ -50,6 +52,7 @@
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect{
     
     if (!_animEffect) {
+        //初始化AiyaAnimEffect
         _animEffect = [[AiyaAnimEffect alloc] init];
         self.animEffect.effectPath = [[NSBundle mainBundle] pathForResource:@"meta" ofType:@"json" inDirectory:@"mogulin"];
         [self.animEffect initEffectContextWithWidth:0 height:0];
@@ -64,6 +67,7 @@
 }
 
 - (void)dealloc{
+    //释放GL资源
     [self.animEffect deinitEffectContext];
     [displayLink invalidate];
     displayLink = nil;
