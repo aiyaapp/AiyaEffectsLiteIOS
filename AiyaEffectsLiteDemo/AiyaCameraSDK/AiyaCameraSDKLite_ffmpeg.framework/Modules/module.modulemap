@@ -1,0 +1,6 @@
+framework module AiyaCameraSDKLite_ffmpeg {
+  umbrella header "AiyaCameraSDKLite_ffmpeg.h"
+
+  export *
+  module * { export * }
+}

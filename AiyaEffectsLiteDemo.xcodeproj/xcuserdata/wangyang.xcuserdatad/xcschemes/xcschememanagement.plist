@@ -7,11 +7,21 @@
 		<key>AiyaEffectsLiteDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AiyaEffectsLiteDemo_ffmpeg.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D387ACFB1F0B742800D2B7AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D3FA47D61EFB55E00059F854</key>
 		<dict>
 			<key>primary</key>

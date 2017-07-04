@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D380081E1F063EE4008310CD /* AiyaCameraSDKLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D380080F1F063EE4008310CD /* AiyaCameraSDKLite.framework */; };
 		D380081F1F063EE4008310CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008111F063EE4008310CD /* AppDelegate.m */; };
 		D38008201F063EE4008310CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38008121F063EE4008310CD /* Assets.xcassets */; };
 		D38008211F063EE4008310CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008131F063EE4008310CD /* LaunchScreen.storyboard */; };
@@ -15,6 +14,26 @@
 		D38008231F063EE4008310CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38008171F063EE4008310CD /* Info.plist */; };
 		D38008241F063EE4008310CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008181F063EE4008310CD /* main.m */; };
 		D38008271F063EE4008310CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D380081D1F063EE4008310CD /* ViewController.m */; };
+		D387ACF51F0B725300D2B7AF /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACEF1F0B725300D2B7AF /* libavcodec.a */; };
+		D387ACF61F0B725300D2B7AF /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACF01F0B725300D2B7AF /* libavfilter.a */; };
+		D387ACF71F0B725300D2B7AF /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACF11F0B725300D2B7AF /* libavformat.a */; };
+		D387ACF81F0B725300D2B7AF /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACF21F0B725300D2B7AF /* libavutil.a */; };
+		D387ACF91F0B725300D2B7AF /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACF31F0B725300D2B7AF /* libswresample.a */; };
+		D387ACFA1F0B725300D2B7AF /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D387ACF41F0B725300D2B7AF /* libswscale.a */; };
+		D387ACFD1F0B742800D2B7AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D380081D1F063EE4008310CD /* ViewController.m */; };
+		D387ACFE1F0B742800D2B7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008181F063EE4008310CD /* main.m */; };
+		D387ACFF1F0B742800D2B7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008111F063EE4008310CD /* AppDelegate.m */; };
+		D387AD011F0B742800D2B7AF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47FD1EFB5B5E0059F854 /* libc++.tbd */; };
+		D387AD021F0B742800D2B7AF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47FB1EFB5B430059F854 /* libiconv.tbd */; };
+		D387AD031F0B742800D2B7AF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F91EFB5B400059F854 /* libz.tbd */; };
+		D387AD0A1F0B742800D2B7AF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F21EFB57E60059F854 /* GLKit.framework */; };
+		D387AD0B1F0B742800D2B7AF /* AiyaCameraSDKLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D380080F1F063EE4008310CD /* AiyaCameraSDKLite.framework */; };
+		D387AD0D1F0B742800D2B7AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38008171F063EE4008310CD /* Info.plist */; };
+		D387AD0E1F0B742800D2B7AF /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D4E61F064ACA00D9064B /* mogulin */; };
+		D387AD0F1F0B742800D2B7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008151F063EE4008310CD /* Main.storyboard */; };
+		D387AD101F0B742800D2B7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38008121F063EE4008310CD /* Assets.xcassets */; };
+		D387AD111F0B742800D2B7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008131F063EE4008310CD /* LaunchScreen.storyboard */; };
+		D387AD611F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D387AD601F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework */; };
 		D3E4D4E71F064ACA00D9064B /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D4E61F064ACA00D9064B /* mogulin */; };
 		D3FA47F31EFB57E60059F854 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F21EFB57E60059F854 /* GLKit.framework */; };
 		D3FA47FA1EFB5B400059F854 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F91EFB5B400059F854 /* libz.tbd */; };
@@ -33,8 +52,17 @@
 		D38008181F063EE4008310CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D380081C1F063EE4008310CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D380081D1F063EE4008310CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D387ACEF1F0B725300D2B7AF /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libavcodec.a; sourceTree = "<group>"; };
+		D387ACF01F0B725300D2B7AF /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libavfilter.a; sourceTree = "<group>"; };
+		D387ACF11F0B725300D2B7AF /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libavformat.a; sourceTree = "<group>"; };
+		D387ACF21F0B725300D2B7AF /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libavutil.a; sourceTree = "<group>"; };
+		D387ACF31F0B725300D2B7AF /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libswresample.a; sourceTree = "<group>"; };
+		D387ACF41F0B725300D2B7AF /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libswscale.a; sourceTree = "<group>"; };
+		D387AD151F0B742800D2B7AF /* AiyaEffectsLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D387AD161F0B742900D2B7AF /* AiyaEffectsLiteDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AiyaEffectsLiteDemo copy-Info.plist"; path = "/Volumes/baichai/aiya_git/AiyaEfffectsLiteIOS/AiyaEffectsLiteDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		D387AD601F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AiyaCameraSDKLite_ffmpeg.framework; sourceTree = "<group>"; };
 		D3E4D4E61F064ACA00D9064B /* mogulin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mogulin; sourceTree = "<group>"; };
-		D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo_ffmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA47F21EFB57E60059F854 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		D3FA47F91EFB5B400059F854 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D3FA47FB1EFB5B430059F854 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
@@ -42,15 +70,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D387AD001F0B742800D2B7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D387AD011F0B742800D2B7AF /* libc++.tbd in Frameworks */,
+				D387AD021F0B742800D2B7AF /* libiconv.tbd in Frameworks */,
+				D387AD031F0B742800D2B7AF /* libz.tbd in Frameworks */,
+				D387AD0A1F0B742800D2B7AF /* GLKit.framework in Frameworks */,
+				D387AD0B1F0B742800D2B7AF /* AiyaCameraSDKLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FA47D41EFB55E00059F854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D387ACF51F0B725300D2B7AF /* libavcodec.a in Frameworks */,
+				D387ACF61F0B725300D2B7AF /* libavfilter.a in Frameworks */,
+				D387ACF71F0B725300D2B7AF /* libavformat.a in Frameworks */,
+				D387ACF81F0B725300D2B7AF /* libavutil.a in Frameworks */,
+				D387ACF91F0B725300D2B7AF /* libswresample.a in Frameworks */,
+				D387ACFA1F0B725300D2B7AF /* libswscale.a in Frameworks */,
 				D3FA47FE1EFB5B5E0059F854 /* libc++.tbd in Frameworks */,
 				D3FA47FC1EFB5B430059F854 /* libiconv.tbd in Frameworks */,
 				D3FA47FA1EFB5B400059F854 /* libz.tbd in Frameworks */,
 				D3FA47F31EFB57E60059F854 /* GLKit.framework in Frameworks */,
-				D380081E1F063EE4008310CD /* AiyaCameraSDKLite.framework in Frameworks */,
+				D387AD611F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D380080F1F063EE4008310CD /* AiyaCameraSDKLite.framework */,
+				D387AD601F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework */,
 			);
 			path = AiyaCameraSDK;
 			sourceTree = "<group>";
@@ -89,13 +136,15 @@
 				D380080D1F063EE3008310CD /* AiyaEffectsLiteDemo */,
 				D3FA47D81EFB55E00059F854 /* Products */,
 				D3FA47F11EFB57E60059F854 /* Frameworks */,
+				D387AD161F0B742900D2B7AF /* AiyaEffectsLiteDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		D3FA47D81EFB55E00059F854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo.app */,
+				D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg.app */,
+				D387AD151F0B742800D2B7AF /* AiyaEffectsLiteDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +152,12 @@
 		D3FA47F11EFB57E60059F854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D387ACEF1F0B725300D2B7AF /* libavcodec.a */,
+				D387ACF01F0B725300D2B7AF /* libavfilter.a */,
+				D387ACF11F0B725300D2B7AF /* libavformat.a */,
+				D387ACF21F0B725300D2B7AF /* libavutil.a */,
+				D387ACF31F0B725300D2B7AF /* libswresample.a */,
+				D387ACF41F0B725300D2B7AF /* libswscale.a */,
 				D3FA47FD1EFB5B5E0059F854 /* libc++.tbd */,
 				D3FA47FB1EFB5B430059F854 /* libiconv.tbd */,
 				D3FA47F91EFB5B400059F854 /* libz.tbd */,
@@ -114,9 +169,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3FA47D61EFB55E00059F854 /* AiyaEffectsLiteDemo */ = {
+		D387ACFB1F0B742800D2B7AF /* AiyaEffectsLiteDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3FA47EE1EFB55E00059F854 /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo" */;
+			buildConfigurationList = D387AD121F0B742800D2B7AF /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo" */;
+			buildPhases = (
+				D387ACFC1F0B742800D2B7AF /* Sources */,
+				D387AD001F0B742800D2B7AF /* Frameworks */,
+				D387AD0C1F0B742800D2B7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiyaEffectsLiteDemo;
+			productName = glkitdemo;
+			productReference = D387AD151F0B742800D2B7AF /* AiyaEffectsLiteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FA47D61EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA47EE1EFB55E00059F854 /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo_ffmpeg" */;
 			buildPhases = (
 				D3FA47D31EFB55E00059F854 /* Sources */,
 				D3FA47D41EFB55E00059F854 /* Frameworks */,
@@ -126,9 +198,9 @@
 			);
 			dependencies = (
 			);
-			name = AiyaEffectsLiteDemo;
+			name = AiyaEffectsLiteDemo_ffmpeg;
 			productName = glkitdemo;
-			productReference = D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo.app */;
+			productReference = D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +212,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "深圳市哎吖科技有限公司";
 				TargetAttributes = {
+					D387ACFB1F0B742800D2B7AF = {
+						DevelopmentTeam = G29KBS7YUL;
+					};
 					D3FA47D61EFB55E00059F854 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = G29KBS7YUL;
@@ -160,12 +235,25 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3FA47D61EFB55E00059F854 /* AiyaEffectsLiteDemo */,
+				D387ACFB1F0B742800D2B7AF /* AiyaEffectsLiteDemo */,
+				D3FA47D61EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D387AD0C1F0B742800D2B7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D387AD0D1F0B742800D2B7AF /* Info.plist in Resources */,
+				D387AD0E1F0B742800D2B7AF /* mogulin in Resources */,
+				D387AD0F1F0B742800D2B7AF /* Main.storyboard in Resources */,
+				D387AD101F0B742800D2B7AF /* Assets.xcassets in Resources */,
+				D387AD111F0B742800D2B7AF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FA47D51EFB55E00059F854 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +269,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D387ACFC1F0B742800D2B7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D387ACFD1F0B742800D2B7AF /* ViewController.m in Sources */,
+				D387ACFE1F0B742800D2B7AF /* main.m in Sources */,
+				D387ACFF1F0B742800D2B7AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3FA47D31EFB55E00059F854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +311,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D387AD131F0B742800D2B7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G29KBS7YUL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "AiyaEffectsLiteDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya.AiyaEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D387AD141F0B742800D2B7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G29KBS7YUL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "AiyaEffectsLiteDemo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya.AiyaEffectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D3FA47EC1EFB55E00059F854 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -313,11 +451,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
 				);
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AiyaEffectsLiteDemo/ffmpeg/include\"";
 				INFOPLIST_FILE = "$(SRCROOT)/AiyaEffectsLiteDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/AiyaEffectsLiteDemo/ffmpeg/lib\"",
+					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/ffmpeg/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya.AiyaEffectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -333,11 +474,14 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
 				);
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AiyaEffectsLiteDemo/ffmpeg/include\"";
 				INFOPLIST_FILE = "$(SRCROOT)/AiyaEffectsLiteDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/AiyaEffectsLiteDemo/ffmpeg/lib\"",
+					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/ffmpeg/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aiyaapp.aiya.AiyaEffectDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,6 +490,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D387AD121F0B742800D2B7AF /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D387AD131F0B742800D2B7AF /* Debug */,
+				D387AD141F0B742800D2B7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D3FA47D21EFB55E00059F854 /* Build configuration list for PBXProject "AiyaEffectsLiteDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -355,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3FA47EE1EFB55E00059F854 /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo" */ = {
+		D3FA47EE1EFB55E00059F854 /* Build configuration list for PBXNativeTarget "AiyaEffectsLiteDemo_ffmpeg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3FA47EF1EFB55E00059F854 /* Debug */,

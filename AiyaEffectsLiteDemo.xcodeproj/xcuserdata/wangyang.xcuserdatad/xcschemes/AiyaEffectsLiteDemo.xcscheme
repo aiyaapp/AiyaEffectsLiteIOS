@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3FA47D61EFB55E00059F854"
+               BlueprintIdentifier = "D387ACFB1F0B742800D2B7AF"
                BuildableName = "AiyaEffectsLiteDemo.app"
                BlueprintName = "AiyaEffectsLiteDemo"
                ReferencedContainer = "container:AiyaEffectsLiteDemo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3FA47D61EFB55E00059F854"
+            BlueprintIdentifier = "D387ACFB1F0B742800D2B7AF"
             BuildableName = "AiyaEffectsLiteDemo.app"
             BlueprintName = "AiyaEffectsLiteDemo"
             ReferencedContainer = "container:AiyaEffectsLiteDemo.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3FA47D61EFB55E00059F854"
+            BlueprintIdentifier = "D387ACFB1F0B742800D2B7AF"
             BuildableName = "AiyaEffectsLiteDemo.app"
             BlueprintName = "AiyaEffectsLiteDemo"
             ReferencedContainer = "container:AiyaEffectsLiteDemo.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3FA47D61EFB55E00059F854"
+            BlueprintIdentifier = "D387ACFB1F0B742800D2B7AF"
             BuildableName = "AiyaEffectsLiteDemo.app"
             BlueprintName = "AiyaEffectsLiteDemo"
             ReferencedContainer = "container:AiyaEffectsLiteDemo.xcodeproj">

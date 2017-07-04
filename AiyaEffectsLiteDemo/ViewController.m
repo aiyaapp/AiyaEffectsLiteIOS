@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <GLKit/GLKit.h>
-#import <AiyaCameraSDKLite/AiyaCameraSDKLite.h>
+#import "AiyaCameraSDKLite/AiyaCameraSDKLite.h"
 
 @interface ViewController () <GLKViewDelegate>{
     GLKView *glkView;
