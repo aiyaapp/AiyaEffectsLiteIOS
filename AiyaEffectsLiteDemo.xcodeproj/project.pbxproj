@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		D380081F1F063EE4008310CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008111F063EE4008310CD /* AppDelegate.m */; };
 		D38008201F063EE4008310CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38008121F063EE4008310CD /* Assets.xcassets */; };
-		D38008211F063EE4008310CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008131F063EE4008310CD /* LaunchScreen.storyboard */; };
-		D38008221F063EE4008310CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008151F063EE4008310CD /* Main.storyboard */; };
 		D38008231F063EE4008310CD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38008171F063EE4008310CD /* Info.plist */; };
 		D38008241F063EE4008310CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38008181F063EE4008310CD /* main.m */; };
 		D38008271F063EE4008310CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D380081D1F063EE4008310CD /* ViewController.m */; };
@@ -30,9 +28,7 @@
 		D387AD0B1F0B742800D2B7AF /* AiyaCameraSDKLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D380080F1F063EE4008310CD /* AiyaCameraSDKLite.framework */; };
 		D387AD0D1F0B742800D2B7AF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D38008171F063EE4008310CD /* Info.plist */; };
 		D387AD0E1F0B742800D2B7AF /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D4E61F064ACA00D9064B /* mogulin */; };
-		D387AD0F1F0B742800D2B7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008151F063EE4008310CD /* Main.storyboard */; };
 		D387AD101F0B742800D2B7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38008121F063EE4008310CD /* Assets.xcassets */; };
-		D387AD111F0B742800D2B7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38008131F063EE4008310CD /* LaunchScreen.storyboard */; };
 		D387AD611F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D387AD601F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework */; };
 		D3E4D4E71F064ACA00D9064B /* mogulin in Resources */ = {isa = PBXBuildFile; fileRef = D3E4D4E61F064ACA00D9064B /* mogulin */; };
 		D3FA47F31EFB57E60059F854 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA47F21EFB57E60059F854 /* GLKit.framework */; };
@@ -46,8 +42,6 @@
 		D38008101F063EE4008310CD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D38008111F063EE4008310CD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D38008121F063EE4008310CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D38008141F063EE4008310CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D38008161F063EE4008310CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D38008171F063EE4008310CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D38008181F063EE4008310CD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D380081C1F063EE4008310CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -59,7 +53,6 @@
 		D387ACF31F0B725300D2B7AF /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libswresample.a; sourceTree = "<group>"; };
 		D387ACF41F0B725300D2B7AF /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = AiyaEffectsLiteDemo/ffmpeg/lib/libswscale.a; sourceTree = "<group>"; };
 		D387AD151F0B742800D2B7AF /* AiyaEffectsLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D387AD161F0B742900D2B7AF /* AiyaEffectsLiteDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AiyaEffectsLiteDemo copy-Info.plist"; path = "/Volumes/baichai/aiya_git/AiyaEfffectsLiteIOS/AiyaEffectsLiteDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 		D387AD601F0B766000D2B7AF /* AiyaCameraSDKLite_ffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AiyaCameraSDKLite_ffmpeg.framework; sourceTree = "<group>"; };
 		D3E4D4E61F064ACA00D9064B /* mogulin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mogulin; sourceTree = "<group>"; };
 		D3FA47D71EFB55E00059F854 /* AiyaEffectsLiteDemo_ffmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiyaEffectsLiteDemo_ffmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,8 +106,6 @@
 				D380081C1F063EE4008310CD /* ViewController.h */,
 				D380081D1F063EE4008310CD /* ViewController.m */,
 				D38008121F063EE4008310CD /* Assets.xcassets */,
-				D38008131F063EE4008310CD /* LaunchScreen.storyboard */,
-				D38008151F063EE4008310CD /* Main.storyboard */,
 				D38008171F063EE4008310CD /* Info.plist */,
 				D38008181F063EE4008310CD /* main.m */,
 			);
@@ -136,7 +127,6 @@
 				D380080D1F063EE3008310CD /* AiyaEffectsLiteDemo */,
 				D3FA47D81EFB55E00059F854 /* Products */,
 				D3FA47F11EFB57E60059F854 /* Frameworks */,
-				D387AD161F0B742900D2B7AF /* AiyaEffectsLiteDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,9 +238,7 @@
 			files = (
 				D387AD0D1F0B742800D2B7AF /* Info.plist in Resources */,
 				D387AD0E1F0B742800D2B7AF /* mogulin in Resources */,
-				D387AD0F1F0B742800D2B7AF /* Main.storyboard in Resources */,
 				D387AD101F0B742800D2B7AF /* Assets.xcassets in Resources */,
-				D387AD111F0B742800D2B7AF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +248,7 @@
 			files = (
 				D38008231F063EE4008310CD /* Info.plist in Resources */,
 				D3E4D4E71F064ACA00D9064B /* mogulin in Resources */,
-				D38008221F063EE4008310CD /* Main.storyboard in Resources */,
 				D38008201F063EE4008310CD /* Assets.xcassets in Resources */,
-				D38008211F063EE4008310CD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +277,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		D38008131F063EE4008310CD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D38008141F063EE4008310CD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D38008151F063EE4008310CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D38008161F063EE4008310CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		D387AD131F0B742800D2B7AF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -322,7 +289,7 @@
 					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
 				);
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "AiyaEffectsLiteDemo copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AiyaEffectsLiteDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
@@ -342,7 +309,7 @@
 					"$(PROJECT_DIR)/AiyaEffectsLiteDemo/AiyaCameraSDK",
 				);
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "AiyaEffectsLiteDemo copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AiyaEffectsLiteDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";

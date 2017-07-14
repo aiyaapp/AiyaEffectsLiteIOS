@@ -11,6 +11,12 @@
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
 
+typedef NS_ENUM(NSUInteger, AIYA_EFFECT_STATUS) {
+    AIYA_EFFECT_STATUS_INIT, /** 没有设置任何特效 */
+    AIYA_EFFECT_STATUS_PLAYING, /** 特效播放中 */
+    AIYA_EFFECT_STATUS_PLAYEND /** 特效播放结束 */
+};
+
 @interface AiyaAnimEffect : NSObject
 
 /**
