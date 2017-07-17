@@ -55,6 +55,7 @@
         //初始化AiyaAnimEffect
         _animEffect = [[AiyaAnimEffect alloc] init];
         self.animEffect.effectPath = [[NSBundle mainBundle] pathForResource:@"meta" ofType:@"json" inDirectory:@"mogulin"];
+        self.animEffect.effectPlayCount = 2;
         [self.animEffect initEffectContextWithWidth:0 height:0];
     }
     
@@ -64,6 +65,14 @@
     
     //绘制
     [self.animEffect processWithTexture:0 width:(int)view.drawableWidth height:(int)view.drawableHeight];
+    
+    
+    if (_animEffect.effectStatus == AIYA_EFFECT_STATUS_ERROR){
+        NSLog(@"erro %lu",(unsigned long)self.animEffect.effectErrorCode);
+
+    }else {
+        NSLog(@"status %lu",(unsigned long)self.animEffect.effectStatus);
+    }
 }
 
 - (void)dealloc{
