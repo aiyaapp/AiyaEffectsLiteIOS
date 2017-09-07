@@ -78,10 +78,4 @@
     }
 }
 
-- (void)dealloc{
-    //释放GL资源
-    [displayLink invalidate];
-    displayLink = nil;
-}
-
 @end
