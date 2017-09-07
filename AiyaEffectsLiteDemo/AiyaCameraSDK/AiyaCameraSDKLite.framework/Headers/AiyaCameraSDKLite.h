@@ -9,4 +9,6 @@
 
 #import <AiyaCameraSDKLite/AiyaLicenseManager.h>
 
+#import <AiyaCameraSDKLite/AiyaAnimHandler.h>
+
 #import <AiyaCameraSDKLite/AiyaAnimEffect.h>

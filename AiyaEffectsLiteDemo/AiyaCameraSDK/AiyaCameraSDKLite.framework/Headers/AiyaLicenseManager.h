@@ -12,8 +12,8 @@
 
 /**
  初始化lisence
- 同步请求服务器确认lisence
+ 异步请求服务器确认lisence
  */
-+ (void)initLicense:(NSString *)appKey;
++ (void)initLicense:(NSString *)appKey succ:(void(^)())succ failed:(void(^)(NSString *errMsg))failed;
 
 @end

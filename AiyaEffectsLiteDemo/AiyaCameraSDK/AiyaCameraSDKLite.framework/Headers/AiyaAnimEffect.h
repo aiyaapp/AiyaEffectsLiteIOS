@@ -11,40 +11,19 @@
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
 
-typedef NS_ENUM(NSUInteger, AIYA_EFFECT_STATUS) {
-    AIYA_EFFECT_STATUS_INIT, /** 没有设置任何特效 */
-    AIYA_EFFECT_STATUS_PLAYING, /** 特效播放中 */
-    AIYA_EFFECT_STATUS_PLAYEND, /** 特效播放结束 */
-    AIYA_EFFECT_STATUS_ERROR /** 特效播放失败 */
+typedef NS_ENUM(NSUInteger, AIYA_ANIM_EFFECT_ERROR_CODE) {
+    AIYA_ANIM_EFFECT_ERROR_CODE_NO_ERROR, /** 没有错误 */
+    AIYA_ANIM_EFFECT_ERROR_CODE_INVALID_RESOURCE, /** 无效的资源 */
 };
 
-typedef NS_ENUM(NSUInteger, AIYA_EFFECT_ERROR_CODE) {
-    AIYA_EFFECT_ERROR_CODE_NO_ERROR, /** 没有错误 */
-    AIYA_EFFECT_ERROR_CODE_INVALID_RESOURCE, /** 无效的资源 */
+typedef NS_ENUM(NSUInteger, AIYA_ANIM_EFFECT_STATUS) {
+    AIYA_ANIM_EFFECT_STATUS_INIT, /** 没有设置任何特效 */
+    AIYA_ANIM_EFFECT_STATUS_PLAYING, /** 特效播放中 */
+    AIYA_ANIM_EFFECT_STATUS_PLAYEND, /** 特效播放结束 */
+    AIYA_ANIM_EFFECT_STATUS_ERROR /** 特效播放失败 */
 };
 
 @interface AiyaAnimEffect : NSObject
-
-/**
- 设置特效,通过设置特效文件路径的方式
- */
-@property (nonatomic, copy) NSString *effectPath;
-
-/** 
- 设置特效播放次数 默认0 0表示一直渲染当前特效
- */
-@property (nonatomic, assign) NSUInteger effectPlayCount;
-
-/** 
- 特效播放状态 AIYA_EFFECT_STATUS
- 因为只有一个通知,所以使用KVO这种简易的方式.
- */
-@property (nonatomic, assign, readonly) AIYA_EFFECT_STATUS effectStatus;
-
-/**
- 播放错误时的错误码
- */
-@property (nonatomic, assign, readonly) AIYA_EFFECT_ERROR_CODE effectErrorCode;
 
 /**
  初始化上下文
@@ -56,12 +35,15 @@ typedef NS_ENUM(NSUInteger, AIYA_EFFECT_ERROR_CODE) {
 
 /**
  绘制特效
- 
+
  @param texture 保留字段,传0
  @param width 宽度
  @param height 高度
+ @param effectPath 特效资源路径
+ @param errorCode 错误码
+ @return 绘制结果
  */
-- (void)processWithTexture:(GLuint)texture width:(GLuint)width height:(GLuint)height;
+- (int)effectWithTexture:(GLuint)texture width:(GLuint)width height:(GLuint)height effectPath:(NSString *)effectPath error:(AIYA_ANIM_EFFECT_ERROR_CODE *)errorCode;
 
 /**
  销毁上下文

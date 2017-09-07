@@ -15,7 +15,7 @@
     CADisplayLink* displayLink;
 }
 
-@property (nonatomic, strong) AiyaAnimEffect *animEffect;
+@property (nonatomic, strong) AiyaAnimHandler *animHandler;
 
 @end
 
@@ -25,7 +25,11 @@
     [super viewDidLoad];
     
     //在正式环境中填入相应的License
-    [AiyaLicenseManager initLicense:@"704705f35759"];
+    [AiyaLicenseManager initLicense:@"704705f35759" succ:^{
+        
+    } failed:^(NSString *errMsg) {
+        
+    }];
     
     UIView *v = [[UIView alloc] initWithFrame:self.view.bounds];
     v.backgroundColor = [UIColor blueColor];
@@ -51,12 +55,11 @@
 #pragma mark GLKViewDelegate
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect{
     
-    if (!_animEffect) {
+    if (!_animHandler) {
         //初始化AiyaAnimEffect
-        _animEffect = [[AiyaAnimEffect alloc] init];
-        self.animEffect.effectPath = [[NSBundle mainBundle] pathForResource:@"meta" ofType:@"json" inDirectory:@"mogulin"];
-        self.animEffect.effectPlayCount = 2;
-        [self.animEffect initEffectContextWithWidth:0 height:0];
+        _animHandler = [[AiyaAnimHandler alloc] init];
+        self.animHandler.effectPath = [[NSBundle mainBundle] pathForResource:@"meta" ofType:@"json" inDirectory:@"mogulin"];
+        self.animHandler.effectPlayCount = 2;
     }
     
     //清空画布
@@ -64,20 +67,19 @@
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
     //绘制
-    [self.animEffect processWithTexture:0 width:(int)view.drawableWidth height:(int)view.drawableHeight];
+    AIYA_ANIM_EFFECT_ERROR_CODE errorCode;
+    AIYA_ANIM_EFFECT_STATUS effectStatus = [self.animHandler processWithWidth:(int)glkView.drawableWidth height:(int)glkView.drawableHeight error:&errorCode];
     
-    
-    if (_animEffect.effectStatus == AIYA_EFFECT_STATUS_ERROR){
-        NSLog(@"erro %lu",(unsigned long)self.animEffect.effectErrorCode);
+    if (effectStatus == AIYA_ANIM_EFFECT_STATUS_ERROR){
+        NSLog(@"erro %lu",errorCode);
 
     }else {
-        NSLog(@"status %lu",(unsigned long)self.animEffect.effectStatus);
+        NSLog(@"status %lu",effectStatus);
     }
 }
 
 - (void)dealloc{
     //释放GL资源
-    [self.animEffect deinitEffectContext];
     [displayLink invalidate];
     displayLink = nil;
 }

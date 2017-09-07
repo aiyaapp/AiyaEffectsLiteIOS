@@ -9,4 +9,6 @@
 
 #import <AiyaCameraSDKLite_ffmpeg/AiyaLicenseManager.h>
 
+#import <AiyaCameraSDKLite_ffmpeg/AiyaAnimHandler.h>
+
 #import <AiyaCameraSDKLite_ffmpeg/AiyaAnimEffect.h>
