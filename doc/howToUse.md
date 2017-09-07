@@ -23,4 +23,7 @@
 ![](dealloc.png)
 
 ## 注意事项
-* 如果APP中已经存在FFmpeg n3.3版本,可以选择导入AiyaCameraSDKLite_ffmpeg.framework,可以减少对APP大小的增加.
+* 如果APP中已经存在FFmpeg n3.3版本,可以选择导入AiyaCameraSDKLite_ffmpeg.framework,以减少对APP大小的增加.
+
+![](FFmpeg.png)
+
