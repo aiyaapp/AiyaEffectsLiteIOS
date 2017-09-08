@@ -73,8 +73,10 @@
     if (effectStatus == AIYA_ANIM_EFFECT_STATUS_ERROR){
         NSLog(@"erro %lu",errorCode);
 
-    }else {
-        NSLog(@"status %lu",effectStatus);
+    }else if (effectStatus == AIYA_ANIM_EFFECT_STATUS_PLAYEND){
+        self.animHandler = nil;
+        [displayLink invalidate];
+        displayLink = nil;
     }
 }
 
